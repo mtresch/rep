@@ -12,7 +12,7 @@ import itertools
 import os
 from IPython import get_ipython
 
-from pylab import plt
+import matplotlib.pyplot as plt
 import matplotlib
 import numpy
 import tempfile
@@ -1281,4 +1281,3 @@ try:
     png_formatter.for_type(ROOT.TF1, _display_any)
 except:
     pass
-
